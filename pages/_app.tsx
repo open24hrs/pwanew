@@ -2,6 +2,9 @@ import type { AppProps } from "next/app";
 import {
   ThirdwebProvider,
   embeddedWallet,
+  metamaskWallet, 
+  coinbaseWallet, 
+  walletConnect, 
   smartWallet,
 } from "@thirdweb-dev/react";
 import "../styles/globals.css";
@@ -24,6 +27,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           factoryAddress: process.env.NEXT_PUBLIC_FACTORY_ADDRESS || "",
           gasless: true,
         }),
+        metamaskWallet(),
+        coinbaseWallet(),
+        walletConnect(),
       ]}
     >
       <Header />
