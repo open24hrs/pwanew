@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@thirdweb-dev/react": "^4.1.17",
-    "@thirdweb-dev/sdk": "^4.0.23",
+    "@thirdweb-dev/sdk": "^4.0.99",
     "ethers": "^5",
     "next": "^14.2.7",
     "next-pwa": "^5.6.0",
