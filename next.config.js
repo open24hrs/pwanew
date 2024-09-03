@@ -9,11 +9,9 @@ const withPWA = require("next-pwa")({
   register: true,
   skipWaiting: true,
   disable: process.env.NODE_ENV === "development",
-});
+}); // Add closing parenthesis here
 
 module.exports = withPWA({
   reactStrictMode: true,
   // Add any other Next.js configuration options here
-});
-
-export default NextConfig;
+}); // Add closing curly brace here
