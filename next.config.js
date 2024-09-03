@@ -7,6 +7,6 @@ const withPWA = require("next-pwa")({
 });
 
 module.exports = withPWA({
-  basePath: "",
   reactStrictMode: true,
+  // Add any other Next.js configuration options here
 });
