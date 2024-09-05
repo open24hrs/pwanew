@@ -1,5 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/service-worker.js", "destination": "/_next/static/service-worker.js" }
-  ]
+  "build": {
+    "env": {
+      "TYPESCRIPT_VERSION": "latest"
+    }
+  }
 }
