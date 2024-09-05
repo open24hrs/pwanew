@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   const { data: contractMetadata } = useContractMetadata(contract);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{ transform: "scale(0.75)" }}>
       {address ? (
         <div className={styles.nftClaim}>
           <MediaRenderer
