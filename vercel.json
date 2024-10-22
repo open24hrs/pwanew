@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "TYPESCRIPT_VERSION": "latest"
+    }
+  }
+}
